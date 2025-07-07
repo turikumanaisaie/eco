@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navbar } from "@/components/eco/Navbar";
+import { HeroSection } from "@/components/eco/HeroSection";
+import { ServiceCards } from "@/components/eco/ServiceCards";
+import { VehicleTypes } from "@/components/eco/VehicleTypes";
+import { PaymentMethods } from "@/components/eco/PaymentMethods";
+import { Footer } from "@/components/eco/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
+      <ServiceCards />
+      <VehicleTypes />
+      <PaymentMethods />
+      <Footer />
     </div>
   );
 };

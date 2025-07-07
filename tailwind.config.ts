@@ -26,11 +26,14 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
+					light: 'hsl(var(--primary-light))',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,7 +45,9 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					hover: 'hsl(var(--accent-hover))',
+					light: 'hsl(var(--accent-light))',
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -51,6 +56,23 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Eco Platform Specific Colors
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				
+				// Vehicle Types
+				delivery: {
+					car: 'hsl(var(--delivery-car))',
+					bike: 'hsl(var(--delivery-bike))',
+					bicycle: 'hsl(var(--delivery-bicycle))',
+				},
+				
+				// Rwanda Colors
+				rwanda: {
+					blue: 'hsl(var(--rwanda-blue))',
+					yellow: 'hsl(var(--rwanda-yellow))',
+					green: 'hsl(var(--rwanda-green))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
