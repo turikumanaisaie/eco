@@ -53,7 +53,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-gradient-to-r from-primary to-primary-hover rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">NNK</span>
+                <span className="text-primary-foreground font-bold text-lg">N</span>
               </div>
               <span className="text-2xl font-bold text-primary">NowNow Kigali</span>
             </div>
@@ -125,7 +125,7 @@ export const Footer = () => {
         <div className="border-t border-background/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-background/80 text-sm">
-              © {currentYear} Now Now Kigali Delivery Platform. All rights reserved.
+              © {currentYear} NowNow Kigali Delivery Platform. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
               <span className="text-background/80 text-sm">
