@@ -23,9 +23,9 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-primary-hover rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">E</span>
+              <span className="text-primary-foreground font-bold text-lg">N</span>
             </div>
-            <span className="text-xl font-bold text-primary">Eco</span>
+            <span className="text-xl font-bold text-primary">NowNow Kigali</span>
           </Link>
 
           {/* Desktop Navigation */}
