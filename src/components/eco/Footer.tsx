@@ -53,9 +53,9 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-gradient-to-r from-primary to-primary-hover rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">E</span>
+                <span className="text-primary-foreground font-bold text-lg">NowNow</span>
               </div>
-              <span className="text-2xl font-bold text-primary">Eco</span>
+              <span className="text-2xl font-bold text-primary">NowNow Kigali</span>
             </div>
             <p className="text-background/80 mb-6 leading-relaxed">
               Rwanda's leading eco-friendly delivery platform connecting customers, 
